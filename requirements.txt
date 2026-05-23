@@ -1,0 +1,7 @@
+numpy==2.0.2
+torch==2.8.0
+scikit-learn==1.6.1
+pandas
+matplotlib
+scipy
+openpyxl

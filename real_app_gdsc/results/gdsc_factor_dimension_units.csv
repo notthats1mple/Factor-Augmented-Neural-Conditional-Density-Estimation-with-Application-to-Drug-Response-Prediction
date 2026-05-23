@@ -1,0 +1,36 @@
+analysis_id,drug_name,source,drug_id,n_matched,response_sd,selection_role,selection_seed,n_extra_requested,path
+GDSC2::1372::Trametinib,Trametinib,GDSC2,1372,938,2.2600360968025934,case_study_drug,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc2_1372_trametinib.npz
+GDSC2::1012::Vorinostat,Vorinostat,GDSC2,1012,931,1.090951231391975,case_study_drug,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc2_1012_vorinostat.npz
+GDSC2::1909::Venetoclax,Venetoclax,GDSC2,1909,930,1.901945914032885,case_study_drug,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc2_1909_venetoclax.npz
+GDSC1::1012::Vorinostat,Vorinostat,GDSC1,1012,914,1.0917665340942664,case_study_drug,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc1_1012_vorinostat.npz
+GDSC1::1372::Trametinib,Trametinib,GDSC1,1372,865,2.493853139343681,case_study_drug,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc1_1372_trametinib.npz
+GDSC2::1576::IWP-2,IWP-2,GDSC2,1576,866,0.8944101553411888,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc2_1576_iwp_2.npz
+GDSC2::1855::KRAS (G12C) Inhibitor-12,KRAS (G12C) Inhibitor-12,GDSC2,1855,867,1.533582054262805,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc2_1855_kras_g12c_inhibitor_12.npz
+GDSC2::2169::AZD6482,AZD6482,GDSC2,2169,240,1.3915766589231595,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc2_2169_azd6482.npz
+GDSC2::1716::IRAK4_4710,IRAK4_4710,GDSC2,1716,715,0.991858011288316,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc2_1716_irak4_4710.npz
+GDSC2::1845::Schweinfurthin A,Schweinfurthin A,GDSC2,1845,714,2.3321051670719473,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc2_1845_schweinfurthin_a.npz
+GDSC2::2361::THR-102,THR-102,GDSC2,2361,728,0.9697604085650938,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc2_2361_thr_102.npz
+GDSC2::1808::Topotecan,Topotecan,GDSC2,1808,715,1.9418714759235776,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc2_1808_topotecan.npz
+GDSC2::2106::Uprosertib,Uprosertib,GDSC2,2106,733,1.8162509605053017,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc2_2106_uprosertib.npz
+GDSC1::1184::AZ20,AZ20,GDSC1,1184,909,1.124929885200297,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc1_1184_az20.npz
+GDSC1::1183::CRT0160829,CRT0160829,GDSC1,1183,909,1.196266984223318,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc1_1183_crt0160829.npz
+GDSC1::1060::PD0325901,PD0325901,GDSC1,1060,900,1.9155293441212955,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc1_1060_pd0325901.npz
+GDSC1::1050::ZM447439,ZM447439,GDSC1,1050,915,1.2004222143445695,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc1_1050_zm447439.npz
+GDSC1::1413::EphB4_9721,EphB4_9721,GDSC1,1413,899,1.582416700271454,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc1_1413_ephb4_9721.npz
+GDSC2::1558::Lapatinib,Lapatinib,GDSC2,1558,938,1.572391220142181,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc2_1558_lapatinib.npz
+GDSC2::1069::EHT-1864,EHT-1864,GDSC2,1069,915,0.9862859780733956,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc2_1069_eht_1864.npz
+GDSC2::1928::I-BRD9,I-BRD9,GDSC2,1928,930,1.2721266865618637,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc2_1928_i_brd9.npz
+GDSC2::1042::Doramapimod,Doramapimod,GDSC2,1042,927,1.1696939995403992,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc2_1042_doramapimod.npz
+GDSC2::2172::JQ1,JQ1,GDSC2,2172,921,1.9594286823789984,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc2_2172_jq1.npz
+GDSC1::1362::BAY ACCi,BAY ACCi,GDSC1,1362,822,0.836028275615783,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc1_1362_bay_acci.npz
+GDSC1::41::S-Trityl-L-cysteine,S-Trityl-L-cysteine,GDSC1,41,384,1.5071972300089225,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc1_41_s_trityl_l_cysteine.npz
+GDSC1::1142::HG-5-113-01,HG-5-113-01,GDSC1,1142,480,0.9757401693897686,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc1_1142_hg_5_113_01.npz
+GDSC1::127::GSK269962A,GSK269962A,GDSC1,127,387,1.3929436480740247,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc1_127_gsk269962a.npz
+GDSC1::153::Midostaurin,Midostaurin,GDSC1,153,860,1.2593292807105505,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc1_153_midostaurin.npz
+GDSC1::1197::ZL049,ZL049,GDSC1,1197,897,1.1351684078793989,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc1_1197_zl049.npz
+GDSC1::1451::PLK_6522,PLK_6522,GDSC1,1451,887,1.7200715084496667,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc1_1451_plk_6522.npz
+GDSC1::205::Avagacestat,Avagacestat,GDSC1,205,892,0.660054026661187,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc1_205_avagacestat.npz
+GDSC1::275::I-BET-762,I-BET-762,GDSC1,275,887,1.7255420872766485,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc1_275_i_bet_762.npz
+GDSC1::1419::FEN1_3940,FEN1_3940,GDSC1,1419,896,0.985417599170645,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc1_1419_fen1_3940.npz
+GDSC1::372::Pilaralisib,Pilaralisib,GDSC1,372,897,1.0396044323592035,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc1_372_pilaralisib.npz
+GDSC1::552::BAM7,BAM7,GDSC1,552,887,0.8594295495201554,representative_subset,20260524,30,/Users/mycomputer/Documents/New project/real_app_gdsc/data/processed/gdsc_gdsc1_552_bam7.npz
