@@ -317,6 +317,16 @@ This repository is released under the MIT License. See `LICENSE`.
 
 ## Clean Code Archive
 
+For journal data-file upload, Zenodo, or OSF deposit, use the repository
+deposit helper:
+
+```bash
+bash scripts/create_submission_archive.sh
+```
+
+This creates `cindes_statsmed_submission_code_results.tar.gz` with the
+submission-oriented layout described in `REPOSITORY_DEPOSIT_GUIDE.md`.
+
 On macOS, set `COPYFILE_DISABLE=1` while packaging so tar does not emit
 AppleDouble `._*` metadata files:
 
