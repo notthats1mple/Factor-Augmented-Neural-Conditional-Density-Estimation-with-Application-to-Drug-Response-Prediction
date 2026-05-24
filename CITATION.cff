@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the manuscript and this repository."
+title: "Factor-Augmented Neural Conditional Density Estimation with Application to Drug Response Prediction"
+version: "1.0.0"
+date-released: "2026-05-24"
+repository-code: "https://github.com/notthats1mple/Factor-Augmented-Neural-Conditional-Density-Estimation-with-Application-to-Drug-Response-Prediction"
+license: "MIT"
+authors:
+  - name: "notthats1mple"
+preferred-citation:
+  type: article
+  title: "Factor-Augmented Neural Conditional Density Estimation with Application to Drug Response Prediction"
+  authors:
+    - name: "notthats1mple"
+  year: 2026
+  notes: "Manuscript under review. Replace this entry with the final journal citation and DOI when available."

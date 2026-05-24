@@ -1,4 +1,8 @@
-# Factor-Augmented CINDES
+# Factor-Augmented Neural Conditional Density Estimation
+
+Code and results for:
+
+> **Factor-Augmented Neural Conditional Density Estimation with Application to Drug Response Prediction**
 
 This repository contains simulation and real-data code for factor-augmented
 classification-induced neural density estimation (CINDES).
@@ -8,6 +12,46 @@ Density Estimation with Application to Drug Response Prediction". The empirical
 application uses source-specific GDSC drug-screen units and high-dimensional
 basal gene expression to estimate full conditional distributions of continuous
 drug response.
+
+## Manuscript Reproducibility Package
+
+This repository is organized for readers and reviewers to inspect the main
+computational claims in the manuscript.
+
+The repository includes:
+
+- reusable Python code for the simulation study and GDSC real-data application;
+- the all-eligible GDSC benchmark result CSV used in the manuscript;
+- the factor-dimension sensitivity result CSV;
+- scripts that regenerate the manuscript-ready figures and LaTeX tables;
+- leakage and run-completeness reports.
+
+The repository does not include raw GDSC spreadsheets, raw gene-expression
+matrices, or prepared per-drug `.npz` matrices. Those files are downloaded or
+recreated locally by the scripts because they are external public data and/or
+large intermediate artifacts.
+
+## Quick Review Guide
+
+For a fast audit of the submitted results, start with these files:
+
+- `reports/leakage_audit.md`: training-only preprocessing and leakage controls.
+- `reports/gdsc_all_drugs_status.md`: all-drug benchmark completeness report.
+- `real_app_gdsc/results/gdsc_all_drugs_metrics.csv`: per-split all-eligible
+  GDSC benchmark metrics.
+- `real_app_gdsc/results/gdsc_all_drugs_summary.csv`: drug-unit-level summary.
+- `tables/table_gdsc_all_drugs_summary.tex`: manuscript-ready aggregate table.
+- `tables/table_gdsc_cindes_pairwise_delta.tex`: CINDES pairwise comparison
+  table.
+- `real_app_gdsc/results/gdsc_factor_dimension_sensitivity_summary.csv`:
+  sensitivity of PCA factor dimension.
+
+Key benchmark scope:
+
+- 692 source-specific GDSC drug-screen analysis units;
+- 5 train/test splits per analysis unit;
+- 4 density prediction methods in the main benchmark;
+- PCA factor-dimension sensitivity on 35 pre-specified analysis units.
 
 ## Repository Contents
 
@@ -33,6 +77,32 @@ pip install -r requirements.txt
 ```
 
 The commands below assume they are run from the repository root.
+
+## Reproduce Tables and Figures from Committed Results
+
+The curated result CSVs needed for the manuscript tables and figures are already
+committed. To regenerate the all-drug GDSC figures and tables without rerunning
+models:
+
+```bash
+.venv/bin/python real_app_gdsc/make_gdsc_figures.py \
+  --input real_app_gdsc/results/gdsc_all_drugs_metrics.csv \
+  --results-dir real_app_gdsc/results \
+  --figures-dir real_app_gdsc/figures/all_drugs \
+  --tables-dir tables \
+  --output-prefix gdsc_all_drugs \
+  --all-drug-outputs
+```
+
+To regenerate the factor-dimension sensitivity figure and table:
+
+```bash
+.venv/bin/python real_app_gdsc/make_factor_dimension_figures.py \
+  --input real_app_gdsc/results/gdsc_factor_dimension_sensitivity.csv \
+  --results-dir real_app_gdsc/results \
+  --figures-dir real_app_gdsc/figures \
+  --tables-dir tables
+```
 
 ## Simulation
 
@@ -234,6 +304,16 @@ explicitly needed for manuscript archival.
 The committed GDSC result CSVs are small enough for GitHub and correspond to the
 manuscript analyses. They do not contain raw gene-expression matrices or raw
 dose-response spreadsheets.
+
+## Citation
+
+If you use this code, please cite the manuscript and this repository. A
+`CITATION.cff` file is included for GitHub's citation interface. Update the
+author metadata and DOI fields after the manuscript receives a permanent DOI.
+
+## License
+
+This repository is released under the MIT License. See `LICENSE`.
 
 ## Clean Code Archive
 
